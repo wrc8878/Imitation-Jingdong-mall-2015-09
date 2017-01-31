@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImagesServlet</servlet-name>
+    <servlet-class>com.servlet.ImagesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <servlet-class>com.servlet.GoodsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsInfoServlet</servlet-name>
+    <servlet-class>com.servlet.GoodsInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarServlet</servlet-name>
+    <servlet-class>com.servlet.CarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CodeServlet</servlet-name>
+    <servlet-class>com.servlet.CodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SettleServlet</servlet-name>
+    <servlet-class>com.servlet.SettleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.servlet.TestServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ImagesServlet</servlet-name>
+    <url-pattern>/images.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <url-pattern>/goodstype.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/user.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsInfoServlet</servlet-name>
+    <url-pattern>/goods.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarServlet</servlet-name>
+    <url-pattern>/car.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CodeServlet</servlet-name>
+    <url-pattern>/code.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SettleServlet</servlet-name>
+    <url-pattern>/settle.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/test.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+  	<filter-name>SetCharacterEncoding</filter-name>
+  	<filter-class>com.filter.SetCharacterEncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>SetCharacterEncoding</filter-name>
+  	<url-pattern>/*</url-pattern>
+  
+  
+  </filter-mapping>
+  
+</web-app>

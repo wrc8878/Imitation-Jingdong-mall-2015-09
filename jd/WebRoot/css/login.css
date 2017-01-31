@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+<!--顶部-->
+body{
+	margin: 0px auto;
+}
+*{
+	margin: 0px;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #E4393C;
+}
+li{
+		list-style: none;
+	}
+.top{
+	width: 1350px;
+	height: 80px;
+	position: absolute;
+	z-index: 10;
+}
+#logo{	
+		margin-left:150px;
+		margin-top:5px;
+		width: 284px;
+		height: 80px;
+		position: relative;
+		z-index: 12;
+		float: left;
+}
+#welcome{
+	position: absolute;
+	margin-left: 435px;
+}
+#welcome span{
+		font-size: 30;
+		line-height: 80px;
+		font-family: 华文细黑;	
+}
+.center{
+	width: 1350px;
+	height: 475px;
+	background-color: #EE2743;
+	position: absolute;
+	margin-top: 80px;
+}
+#form{
+	background-color:white;
+	width: 350px;
+	height: 360px;
+	margin-left: 820px;
+	margin-top: 40px;
+}
+#form a:link{
+	color: #E4393C;
+}
+#form a{
+	
+}
+#form span{
+	margin-left: 15px;
+	margin-top: 115px;
+	margin-right: 170px;
+}
+#jinggao{
+	outline:2px solid #FFE57D;
+	background-color: #FFF6D2;
+	position: absolute;
+	width: 310px;
+	height:25px;
+	margin-top:55px;
+	margin-left: 15px;
+}
+#jinggao span{
+	font-size: 13;
+	font-family: 宋体;
+	color: #666666;
+	line-height: 25px;
+	margin-right: 10px;
+}
+.input::-ms-clear { display: none; }
+#input{
+	width: 350px;
+	height: 120px;
+	position: absolute;
+	margin-top: 80px;
+}
+.input{
+	height: 40px;
+	width: 310px;
+	margin-top: 15px;
+	margin-left:15px;
+	color: #999999;
+	border: 1px solid #BDBDBD;
+	font-size: 15;
+}
+#checkbox1{
+	position: absolute;
+	margin-top:210px;
+	float: left;
+	width: auto;
+	height: 20px;
+}
+#checkbox1 a:link{
+	color: #666666;
+}
+#checkbox1 a:hover{
+	color: #E4393C;
+}
+
+#submit input{
+	position: absolute;
+	margin-top: 240px;
+	width: 310px;
+	height: 40px;
+	background: #E4393C;
+	margin-left: 15px;
+	font-size:20px;
+	color: white;
+}
+#other{
+	position: absolute;
+	margin-top: 300px;
+}
+#other span{
+	font-size: 13;
+	font-family: 宋体;
+	color: #999999;
+}
+#other a:link{
+	color: #666666;
+	font-size: 13;
+	font-family: 宋体;
+}
+#other a:hover{
+	color: #E4393C;
+}
+.bottom{
+		width: 1340px;
+		height: 100px;		
+		
+		position: absolute;
+		margin-top: 560px;
+	}
+	.bottom a{
+		color: #666666;
+		font-size: 13;
+		width: 70px;	
+		list-style: none;
+		float: left;
+		line-height: 32px;
+		font-family: 宋体;	
+		margin-right: 15px;
+		
+	}
+	.bottom ul{
+		float: left;
+	
+	}
